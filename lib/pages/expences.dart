@@ -14,7 +14,16 @@ class _ExpencesState extends State<Expences> {
       appBar: AppBar(
         title: const Text("Expence Master"),
         backgroundColor: const Color.fromARGB(255, 131, 18, 184),
-        actions: [IconButton(onPressed: () {}, icon: const Icon(Icons.add))],
+        elevation: 0,
+        actions: [
+          Container(
+            color: Colors.yellow,
+            child: IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.add),
+            ),
+          ),
+        ],
       ),
     );
   }

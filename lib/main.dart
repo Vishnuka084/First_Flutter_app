@@ -1,3 +1,4 @@
+import 'package:expence_master_app/pages/expences.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,6 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
+      home: Expences(),
     );
   }
 }

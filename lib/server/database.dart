@@ -1,5 +1,4 @@
-import 'package:expence_tracker_app/models/expence.dart';
-import 'package:hive/hive.dart';
+import 'package:expence_master_app/models/expence.dart';
 import 'package:uuid/uuid.dart';
 
 class Database {

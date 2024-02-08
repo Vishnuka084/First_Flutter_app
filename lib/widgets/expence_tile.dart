@@ -1,4 +1,4 @@
-import 'package:expence_tracker_app/models/expence.dart';
+import 'package:expence_master_app/models/expence.dart';
 import 'package:flutter/material.dart';
 
 class ExpenceItem extends StatelessWidget {

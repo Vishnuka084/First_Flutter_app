@@ -1,10 +1,8 @@
-import 'package:expence_tracker_app/server/database.dart';
-import 'package:expence_tracker_app/widgets/add_expence.dart';
-import 'package:expence_tracker_app/widgets/expences_list.dart';
+import 'package:expence_master_app/models/expence.dart';
+import 'package:expence_master_app/server/database.dart';
+import 'package:expence_master_app/widgets/add_expence.dart';
+import 'package:expence_master_app/widgets/expences_list.dart';
 import 'package:flutter/material.dart';
-import 'package:expence_tracker_app/models/expence.dart';
-import 'package:hive/hive.dart';
-import 'package:pie_chart/pie_chart.dart';
 
 class Expences extends StatefulWidget {
   const Expences({Key? key}) : super(key: key);

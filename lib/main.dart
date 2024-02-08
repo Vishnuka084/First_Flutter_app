@@ -1,8 +1,7 @@
-import 'package:expence_tracker_app/models/expence.dart';
-import 'package:expence_tracker_app/pages/expences.dart';
-import 'package:expence_tracker_app/server/categories_adapter.dart';
+import 'package:expence_master_app/models/expence.dart';
+import 'package:expence_master_app/pages/expences.dart';
+import 'package:expence_master_app/server/categories_adapter.dart';
 import 'package:flutter/material.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 
 void main() async {
   //init hive

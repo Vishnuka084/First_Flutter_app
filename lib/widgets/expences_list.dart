@@ -1,5 +1,5 @@
-import 'package:expence_tracker_app/models/expence.dart';
-import 'package:expence_tracker_app/widgets/expence_tile.dart';
+import 'package:expence_master_app/models/expence.dart';
+import 'package:expence_master_app/widgets/expence_tile.dart';
 import 'package:flutter/material.dart';
 
 class ExpenccesList extends StatelessWidget {

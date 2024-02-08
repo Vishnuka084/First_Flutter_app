@@ -40,10 +40,17 @@ class _ExpencesState extends State<Expences> {
           ),
         ],
       ),
-      body: ListView.builder(
-        itemBuilder: (context, index) {
-          return Text(_expenceList[index].title);
-        },
+      body: Column(
+        children: [
+          Expanded(
+            child: ListView.builder(
+              itemCount: _expenceList.length,
+              itemBuilder: (context, index) {
+                return Text(_expenceList[index].title);
+              },
+            ),
+          ),
+        ],
       ),
     );
   }

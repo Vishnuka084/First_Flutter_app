@@ -9,7 +9,7 @@ class ExpenceTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromARGB(255, 239, 240, 239),
+      color: const Color.fromARGB(255, 235, 236, 235),
       child: Padding(
         padding: const EdgeInsets.symmetric(
           vertical: 16,
